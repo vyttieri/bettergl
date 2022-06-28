@@ -2,15 +2,18 @@
 import '@hotwired/turbo-rails'
 import 'controllers'
 import 'components/form'
-import h from 'helpers/createElement'
 
 import React from 'react'
 import { render } from 'react-dom'
+
+import h from 'helpers/createElement'
+import Form from 'components/form'
 
 const App = props => (
 	h`
 	<div>
 		Test ${props.name}
+		<${Form} />
 	</div>
 	`
 )
