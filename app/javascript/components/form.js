@@ -15,9 +15,14 @@ export default class Form extends Component {
 	}
 
 	handleSubmit(e) {
+		e.preventDefault()
+
 		console.log('String submitted: ' + this.state.value)
 
-		e.preventDefault()
+		fetch(
+			`fetch?url=${encodeURIComponent(this.state.value)}`,
+			{ method: 'GET', dataType: 'json' })
+			.then(response => console.log(response))
 	}
 
 	render() {
