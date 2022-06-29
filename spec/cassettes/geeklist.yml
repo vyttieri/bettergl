@@ -173,4 +173,544 @@ http_interactions:
         defer=\"\" crossorigin=\"anonymous\"></script><script src=\"https://cf.geekdo-static.com/frontend/main.6f4f47724de584cd.js\"
         type=\"module\" crossorigin=\"anonymous\"></script></body>\n</html>\n"
   recorded_at: Wed, 29 Jun 2022 20:35:56 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:59098/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:59098
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:59098/devtools/browser/b788e000-5f12-4c72-aac5-054488903096"
+        }
+  recorded_at: Wed, 29 Jun 2022 20:50:51 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:59203/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:59203
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:59203/devtools/browser/92811ca7-fd62-4a7e-b894-2a0810dda0e4"
+        }
+  recorded_at: Wed, 29 Jun 2022 20:51:15 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:60401/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:60401
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:60401/devtools/browser/1387b681-3e79-45ac-ab26-9bfa7569d7dd"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:25:35 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:60410/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:60410
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:60410/devtools/browser/14fd3a8f-ce5f-4e2b-b577-82510d527430"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:26:10 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61244/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61244
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61244/devtools/browser/58e737d0-6c7a-4f1d-8622-9444c698e35b"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:30:16 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61325/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61325
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61325/devtools/browser/0d969601-7010-4eaf-8f73-8ed80c62c44f"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:30:29 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61474/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61474
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61474/devtools/browser/41427b82-59c3-4199-9b96-1cc538fd507b"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:31:02 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61535/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61535
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61535/devtools/browser/f302cc6c-c995-4af1-a59e-d4b08d8e7dd9"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:31:13 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61608/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61608
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61608/devtools/browser/2c1f452d-c58c-4bac-8225-db7b057c8585"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:31:27 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61641/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61641
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61641/devtools/browser/293503ba-9cf0-4f2b-9cec-5a4f32df06c1"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:31:30 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61670/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61670
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61670/devtools/browser/83f78ffe-40ee-4674-8a52-0a8a938f6f16"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:31:34 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:61715/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:61715
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:61715/devtools/browser/817d045e-8bbb-4ee3-9235-104681519cab"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:31:41 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:62313/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:62313
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:62313/devtools/browser/fd8c1754-68b0-474b-ae4a-324398d12e7b"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:34:07 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:62583/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:62583
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:62583/devtools/browser/3e67d9ec-0f34-42be-960d-39b5166a2c43"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:35:07 GMT
+- request:
+    method: get
+    uri: http://127.0.0.1:62632/json/version
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - 127.0.0.1:62632
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '441'
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "Browser": "HeadlessChrome/103.0.5060.53",
+           "Protocol-Version": "1.3",
+           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.53 Safari/537.36",
+           "V8-Version": "10.3.174.14",
+           "WebKit-Version": "537.36 (@a1711811edd74ff1cf2150f36ffa3b0dae40b17f)",
+           "webSocketDebuggerUrl": "ws://127.0.0.1:62632/devtools/browser/dc61d18c-c347-4b47-8562-aef442131a34"
+        }
+  recorded_at: Wed, 29 Jun 2022 21:35:13 GMT
 recorded_with: VCR 6.1.0
