@@ -1,8 +1,6 @@
 module BggConcerns
 	extend ActiveSupport::Concern
 
-	private
-
 	def fetch_list(url)
 		begin
 			html = URI.open(url)
