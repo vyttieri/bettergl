@@ -13,6 +13,16 @@
 # it.
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+
+require 'vcr'
+
+# TODO: Deprecated
+VCR.config do |c|
+  c.cassette_library_dir = 'spec/cassettes'
+  c.stub_with :webmock
+  c.default_cassette_options = { :record => :new_episodes }
+end
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
@@ -91,4 +101,6 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+
+  # config.extend VCR::RSpec::Macros
 end

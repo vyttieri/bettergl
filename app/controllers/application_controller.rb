@@ -1,5 +1,3 @@
-require 'open-uri'
-
 class ApplicationController < ActionController::Base
 	include BggConcerns
 

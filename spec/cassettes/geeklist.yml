@@ -1,0 +1,176 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://boardgamegeek.com/geeklist/298162/beautiful-fillers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.19.10
+      Date:
+      - Wed, 29 Jun 2022 15:22:19 GMT
+      Content-Type:
+      - text/html; charset="UTF-8"
+      X-Powered-By:
+      - PHP/7.4.14
+      Content-Security-Policy:
+      - frame-ancestors 'self'
+      X-Frame-Options:
+      - sameorigin
+      Xkey:
+      - "/api/geeklists/geeklist/298162 geeklist_angular landingpage"
+      Cache-Control:
+      - max-age=0, s-maxage=604800, must-revalidate
+      Vary:
+      - Accept-Encoding
+      X-Varnish:
+      - 452627128 220444430
+      Age:
+      - '18817'
+      Accept-Ranges:
+      - bytes
+      Via:
+      - 1.1 varnish (Varnish/6.6), 1.1 google
+      Strict-Transport-Security:
+      - max-age=31536000
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\n<html lang=\"en-US\">\n  <head>\t<link rel=\"canonical\"
+        href=\"https://boardgamegeek.com/geeklist/298162/beautiful-fillers\" />\n\n<link
+        rel=\"apple-touch-icon\" \thref=\"https://cf.geekdo-static.com/icons/touch-icon180.png\"
+        />\n<link rel=\"shortcut icon\" \t\thref=\"https://cf.geekdo-static.com/icons/favicon2.ico\"
+        type=\"image/ico\" />\n<link rel=\"icon\" \t\t\t\t\thref=\"https://cf.geekdo-static.com/icons/favicon2.ico\"
+        type=\"image/ico\" />\n<link rel=\"search\" \t\t\t\thref=\"/game-opensearch.xml\"
+        type=\"application/opensearchdescription+xml\" title=\"BGG Game Search\" />\n<meta
+        name=\"apple-mobile-web-app-title\" content=\"BGG\">\n\n<meta name=\"theme-color\"
+        content=\"#2e2b47\">\n<link rel=\"preconnect\" href=\"https://api.geekdo.com\"
+        />\n\n\n\n\n\t<meta property=\"og:image\" content=\"https://cf.geekdo-images.com/sAOWDzYp6CDTzo2EHozkEw__opengraph/img/D80FfIUZgskgLN3BMiv5qnP03mc=/fit-in/1200x630/filters:strip_icc()/pic6293166.jpg\"
+        />\n\t<meta property=\"og:type\" content=\"website\" />\n\t<meta property=\"og:site_name\"
+        content=\"BoardGameGeek\" />\n\t<meta property=\"og:title\" content=\"Beautiful
+        Fillers\" />\n\t<meta property=\"og:description\" content=\"I guess I&#039;m
+        defining a filler as any game with a maximum playtime of 45 minutes or less.\r\n\r\nBeauty
+        is obviously subjective but I&#039;m just looking for games with a nice visual
+        aesthetic, and/or great artwork, etc.\r\n\r\nFeel free to add your own picks!
+        Make sure the \" />\n\t<meta property=\"og:url\" content=\"https://boardgamegeek.com/geeklist/298162/beautiful-fillers\"
+        />\n\n\t<meta name=\"twitter:title\" content=\"Beautiful Fillers\" />\n\t<meta
+        name=\"twitter:description\" content=\"I guess I&#039;m defining a filler
+        as any game with a maximum playtime of 45 minutes or less.\r\n\r\nBeauty is
+        obviously subjective but I&#039;m just looking for games with a nice visual
+        aesthetic, and/or great artwork, etc.\r\n\r\nFeel free to add your own picks!
+        Make sure the \" />\n\t<meta name=\"twitter:image:src\" content=\"https://cf.geekdo-images.com/sAOWDzYp6CDTzo2EHozkEw__opengraph/img/D80FfIUZgskgLN3BMiv5qnP03mc=/fit-in/1200x630/filters:strip_icc()/pic6293166.jpg\"
+        />\n\n\t<meta name=\"description\" content=\"I guess I&#039;m defining a filler
+        as any game with a maximum playtime of 45 minutes or less.\r\n\r\nBeauty is
+        obviously subjective but I&#039;m just looking for games with a nice visual
+        aesthetic, and/or great artwork, etc.\r\n\r\nFeel free to add your own picks!
+        Make sure the \">\n\n\t<meta name=\"keywords\" content=\"board game, boardgames,
+        boardgame, board, games, game, hobby, boardgamegeek, geek, geekdo\">\n\n<script>window.AdSlots
+        = window.AdSlots || {\n\tcmd: [],\n\tdisableScripts: ['gpt'],\n\trenderOnFirstLoad:
+        false,\n\tdivCheck: false\n};</script>\n\n<title>Beautiful Fillers</title><link
+        rel=\"preconnect\" href=\"https://use.typekit.net\" crossorigin>\n    <meta
+        charset=\"utf-8\"/>\n    <!-- Load the Proxima Nova font -->\n    <style type=\"text/css\">@import
+        url(\"https://p.typekit.net/p.css?s=1&k=ddz3tbb&ht=tk&f=139.140.173.174.175.176&a=962780&app=typekit&e=css\");@font-face
+        {font-family:\"proxima-nova\";src:url(\"https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\")
+        format(\"woff2\"),url(\"https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\")
+        format(\"woff\"),url(\"https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\")
+        format(\"opentype\");font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;}@font-face
+        {font-family:\"proxima-nova\";src:url(\"https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\")
+        format(\"woff2\"),url(\"https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\")
+        format(\"woff\"),url(\"https://use.typekit.net/af/4c4052/00000000000000003b9b3069/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\")
+        format(\"opentype\");font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;}@font-face
+        {font-family:\"proxima-nova\";src:url(\"https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3\")
+        format(\"woff2\"),url(\"https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3\")
+        format(\"woff\"),url(\"https://use.typekit.net/af/576d53/00000000000000003b9b3066/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3\")
+        format(\"opentype\");font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;}@font-face
+        {font-family:\"proxima-nova\";src:url(\"https://use.typekit.net/af/f7d492/00000000000000003b9b3067/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3\")
+        format(\"woff2\"),url(\"https://use.typekit.net/af/f7d492/00000000000000003b9b3067/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3\")
+        format(\"woff\"),url(\"https://use.typekit.net/af/f7d492/00000000000000003b9b3067/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i6&v=3\")
+        format(\"opentype\");font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;}@font-face
+        {font-family:\"proxima-nova\";src:url(\"https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\")
+        format(\"woff2\"),url(\"https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\")
+        format(\"woff\"),url(\"https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\")
+        format(\"opentype\");font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;}@font-face
+        {font-family:\"proxima-nova\";src:url(\"https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\")
+        format(\"woff2\"),url(\"https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\")
+        format(\"woff\"),url(\"https://use.typekit.net/af/5c70f2/00000000000000003b9b3063/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\")
+        format(\"opentype\");font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;}.tk-proxima-nova{font-family:\"proxima-nova\",sans-serif;}</style>\n
+        \   <style type=\"text/css\">\n      body {\n        margin: 0;\n        background-color:
+        #ecedee;\n      }\n\n      main.skeleton-main {\n        display: block;\n
+        \       text-align: center;\n        padding: 20px;\n      }\n\n      header.skeleton-header
+        {\n        height: 52px;\n        background-color: #3f3a60;\n      }\n\n
+        \     header.skeleton-header nav {\n        max-width: 1550px;\n        padding:
+        0 15px;\n        margin: 0 auto 1.5rem auto;\n        line-height: normal;\n
+        \       position: relative;\n        top: 50%;\n        transform: translateY(-50%);\n
+        \       box-sizing: border-box;\n      }\n\n      @media (min-width: 850px)
+        {\n        header.skeleton-header nav {\n          padding-left: 40px;\n        }\n
+        \     }\n\n      .skeleton-header-logo,\n      .skeleton-header-item {\n        height:
+        20px;\n        border-radius: 2px;\n        display: inline-block;\n        vertical-align:
+        middle;\n        margin-right: 15px;\n        background-color: rgba(255,
+        255, 255, 0.3);\n      }\n\n      .skeleton-header-logo {\n        width:
+        80px;\n        height: 30px;\n      }\n\n      .skeleton-header-item {\n        width:
+        60px;\n      }\n\n      @media (max-width: 300px) {\n        .skeleton-header-item:nth-child(n
+        + 3) {\n          display: none;\n        }\n      }\n\n      @media (max-width:
+        400px) {\n        .skeleton-header-item:nth-child(n + 4) {\n          display:
+        none;\n        }\n      }\n\n      @media (max-width: 500px) {\n        .skeleton-header-item:nth-child(n
+        + 5) {\n          display: none;\n        }\n      }\n\n      @media (max-width:
+        600px) {\n        .skeleton-header-item:nth-child(n + 6) {\n          display:
+        none;\n        }\n      }\n\n      @media (max-width: 700px) {\n        .skeleton-header-item:nth-child(n
+        + 7) {\n          display: none;\n        }\n      }\n\n      @media (min-width:
+        850px) {\n        .skeleton-header-logo + .skeleton-header-item {\n          margin-left:
+        30px;\n        }\n      }\n\n      .loader {\n        position: absolute;\n
+        \       top: 25%;\n        width: 100%;\n        left: 0;\n        text-align:
+        center;\n      }\n\n      .line {\n        animation: expand 1s ease-in-out
+        infinite;\n        border-radius: 10px;\n        display: inline-block;\n
+        \       transform-origin: center center;\n        margin: 0 3px;\n        width:
+        3px;\n        height: 15px;\n        border-radius: 10px;\n        background:
+        #c0c5c8;\n      }\n\n      .line:nth-child(2) {\n        animation-delay:
+        130ms;\n      }\n\n      .line:nth-child(3) {\n        animation-delay: 310ms;\n
+        \     }\n\n      .line:nth-child(4) {\n        animation-delay: 490ms;\n      }\n\n
+        \     @keyframes expand {\n        0% {\n          transform: scale(1);\n
+        \       }\n        25% {\n          transform: scale(2);\n        }\n      }\n
+        \   </style>\n    <base href=\"/\"/>\n\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\"/>\n  <link rel=\"stylesheet\" href=\"https://cf.geekdo-static.com/frontend/styles.56086b6c7106f823.css\"
+        crossorigin=\"anonymous\">\t\t\t<link rel='stylesheet' type='text/css' href='https://cf.geekdo-static.com/static/geekng_master2_62bc63c1869b0.css'>\n\t</head>\n
+        \ <body class=\"domain-boardgame\">\n    <gg-app>\n      <header class=\"skeleton-header\">\n
+        \       <nav>\n          <span class=\"skeleton-header-logo\"></span>\n          <span
+        class=\"skeleton-header-item\"></span>\n          <span class=\"skeleton-header-item\"></span>\n
+        \         <span class=\"skeleton-header-item\"></span>\n          <span class=\"skeleton-header-item\"></span>\n
+        \         <span class=\"skeleton-header-item\"></span>\n          <span class=\"skeleton-header-item\"></span>\n
+        \       </nav>\n      </header>\n      <main class=\"skeleton-main\">\n        <div
+        class=\"loader\">\n          <div class=\"line\"></div>\n          <div class=\"line\"></div>\n
+        \         <div class=\"line\"></div>\n          <div class=\"line\"></div>\n
+        \       </div>\n      </main>\n    </gg-app><script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-104725-1\"></script>\n<script>\n\twindow.dataLayer
+        = window.dataLayer || [];\n\tfunction gtag(){dataLayer.push(arguments);}\n\tgtag('js',
+        new Date());\n\tgtag('consent', 'default', {\n\t\t'ad_storage': 'denied',\n\t\t'analytics_storage':
+        'denied',\n\t\t'personalization_storage': 'denied',\n\t\t'wait_for_update':
+        3000\n\t});\n\tgtag('config', 'UA-104725-1', {\n\t\t'cookie_domain': 'boardgamegeek.com',\n\t\t'send_page_view':
+        false\n\t});\n</script>\n\n<script async=\"async\" src=\"https://www.googletagservices.com/tag/js/gpt.js\"></script>\n\n<script>\n\tvar
+        googletag = googletag || {};\n\tvar grecaptcha = grecaptcha || {};\n\tvar
+        google = google || {};\n\tgoogletag.cmd = googletag.cmd || [];\n\n\t\n\n\twindow.GEEK
+        = {\n\t\tgeeksite: 'boardgame',\n\t\trecaptcha_public: '6Ldyr6EaAAAAAE0F2hYgtHHqbF6nKPTENAwo6SyU',\n\t\tstripe_public:
+        'pk_live_Bg0TwgF6emmzXngnwsbgu2AL',\n\t\tanalytics_id: 'UA-104725-1',\n\t\tplaces_key:
+        'AIzaSyDp84ECUWfUUBV1Q90aMKE7Fb2P7mNRr9g'\n\t};\n\t\t</script>\n\n\t\t\t<script
+        type='text/javascript' src='https://cf.geekdo-static.com/static/geekng_master2_62bc63c1869b0.js'></script>\n\t\n
+        \ <script src=\"https://cf.geekdo-static.com/frontend/runtime.5a3522be867d4408.js\"
+        type=\"module\" crossorigin=\"anonymous\"></script><script src=\"https://cf.geekdo-static.com/frontend/polyfills.97b6bece3b0210c2.js\"
+        type=\"module\" crossorigin=\"anonymous\"></script><script src=\"https://cf.geekdo-static.com/frontend/scripts.792a9f04b2a3fd0e.js\"
+        defer=\"\" crossorigin=\"anonymous\"></script><script src=\"https://cf.geekdo-static.com/frontend/main.6f4f47724de584cd.js\"
+        type=\"module\" crossorigin=\"anonymous\"></script></body>\n</html>\n"
+  recorded_at: Wed, 29 Jun 2022 20:35:56 GMT
+recorded_with: VCR 6.1.0
