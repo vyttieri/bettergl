@@ -1,14 +1,15 @@
 class ApplicationController < ActionController::Base
-	include BggConcerns
+  include BggConcerns
 
-	def index
-	end
+  def index
+  end
 
-	def fetch
-		url = params[:url].blank? ? 'https://boardgamegeek.com/geeklist/298162/beautiful-fillers' : params[:url]
+  def fetch
+    url = params[:url].blank? ? 'https://boardgamegeek.com/geeklist/298162/beautiful-fillers' : params[:url]
 
-		html = fetch_list(url)
+    geeklist_scraper = GeeklistScraper.new(url)
+    geeklist_scraper.scrape
 
-		render json: Hash.from_xml(doc.to_xml).to_json
-	end
+    render json: JSON.generate(geeklist_scraper.geeklist_items)
+  end
 end
