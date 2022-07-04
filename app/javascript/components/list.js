@@ -1,9 +1,19 @@
-import React from 'react'
-
 import h from 'helpers/createElement'
-const List = () => {
+
+const List = props => {
 	return (
-		h`<ul><li>sup</li></ul>`)
+		h`
+			<table><tbody>
+		${props.geeklistItems.map(geeklistItem =>
+			h`<tr>
+				<td>${geeklistItem.rank}</td>
+				<td>${geeklistItem.title}</td>
+				<td>${geeklistItem.rating}</td>
+				<td>${geeklistItem.link}</td>
+			</tr>`
+		)}
+		</tbody></table>`
+	)
 }
 
 export default List

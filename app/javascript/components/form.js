@@ -23,7 +23,17 @@ export default class Form extends Component {
 		fetch(
 			`fetch?url=${encodeURIComponent(this.state.value)}`,
 			{ method: 'GET', dataType: 'json' })
-			.then(response => this.props.onGeeklistLoad(response))
+			.then(response => {
+				if (!response.ok) {
+					throw response
+				}
+
+				return response.json()
+			})
+			.then(data => {
+				this.props.onGeeklistLoad(data)
+			})
+
 	}
 
 	render() {

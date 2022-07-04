@@ -11,7 +11,7 @@ import Form from 'components/form'
 import List from 'components/list'
 
 const App = props => {
-	const [geeklistItems, setGeeklistItems] = useState(1)
+	const [geeklistItems, setGeeklistItems] = useState([])
 	const onGeeklistLoad = geeklistItems => {
 		setGeeklistItems(geeklistItems)
 	}
