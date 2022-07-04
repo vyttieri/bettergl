@@ -47,7 +47,6 @@ const List = ({ geeklistItems }) => {
 					<th name="rank" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Rank</th>
 					<th name="title" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Title</th>
 					<th name="rating" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Rating</th>
-					<th name="link">BGG Link</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -55,9 +54,8 @@ const List = ({ geeklistItems }) => {
 			h`
 				<tr>
 					<td>${geeklistItem.rank}</td>
-					<td>${geeklistItem.title}</td>
+					<td><a href=${geeklistItem.link} target="_blank">${geeklistItem.title}</a></td>
 					<td>${geeklistItem.rating}</td>
-					<td>${geeklistItem.link}</td>
 				</tr>`
 		)}
 			</tbody>
