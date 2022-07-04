@@ -34,7 +34,6 @@ module BggConcerns
 
         cur_page += 1
       end
-
     end
 
     private

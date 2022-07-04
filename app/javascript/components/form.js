@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import h from 'helpers/createElement'
+import PropTypes from 'prop-types'
 
 export default class Form extends Component {
 	constructor(props) {
@@ -22,7 +23,7 @@ export default class Form extends Component {
 		fetch(
 			`fetch?url=${encodeURIComponent(this.state.value)}`,
 			{ method: 'GET', dataType: 'json' })
-			.then(response => console.log(response))
+			.then(response => this.props.onGeeklistLoad(response))
 	}
 
 	render() {
@@ -40,3 +41,6 @@ export default class Form extends Component {
 	}
 }
 
+Form.propTypes = {
+	onGeeklistLoad: PropTypes.func.isRequired,
+}

@@ -3,20 +3,27 @@ import '@hotwired/turbo-rails'
 import 'controllers'
 import 'components/form'
 
-import React from 'react'
+import React, { useState } from 'react'
 import { render } from 'react-dom'
 
 import h from 'helpers/createElement'
 import Form from 'components/form'
+import List from 'components/list'
 
-const App = props => (
-	h`
+const App = props => {
+	const [geeklistItems, setGeeklistItems] = useState(1)
+	const onGeeklistLoad = geeklistItems => {
+		setGeeklistItems(geeklistItems)
+	}
+
+	return h`
 	<div>
 		Test ${props.name}
-		<${Form} />
+		<${Form} onGeeklistLoad=${onGeeklistLoad} />
+		<${List} geeklistItems=${geeklistItems}/>
 	</div>
 	`
-)
+}
 
 App.defaultProps = {
 	name: 'Whatever'
