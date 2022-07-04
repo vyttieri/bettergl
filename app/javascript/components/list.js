@@ -1,8 +1,17 @@
+import { useState } from 'react'
+
 import h from 'helpers/createElement'
 
-
-
 const List = ({ geeklistItems }) => {
+	const [sortColumn, setSortColumn] = useState('rank')
+	const [sortReverse, setSortReverse] = useState(false)
+
+	let sortedGeeklistItems = geeklistItems.sort((a, b) => (a[sortColumn] > b[sortColumn]) ? 1 : -1)
+
+	if (sortReverse) {
+		sortedGeeklistItems = sortedGeeklistItems.reverse()
+	}
+
 	return (h`
 		<table>
 			<thead>
@@ -28,6 +37,4 @@ const List = ({ geeklistItems }) => {
 	)
 }
 
-
 export default List
-
