@@ -2,24 +2,52 @@ import { useState } from 'react'
 
 import h from 'helpers/createElement'
 
+const listStyles = {
+	arrow: {
+		border: 'solid black',
+		borderWidth: '0 3px 3px 0',
+		display: 'inline-block',
+		padding: '3px'
+	},
+
+	up: {
+		transform: 'rotate(-135deg)',
+	},
+
+	down: {
+		transform: 'rotate(135deg)',
+	}
+}
+
 const List = ({ geeklistItems }) => {
 	const [sortColumn, setSortColumn] = useState('rank')
 	const [sortReverse, setSortReverse] = useState(false)
 
-	let sortedGeeklistItems = geeklistItems.sort((a, b) => (a[sortColumn] > b[sortColumn]) ? 1 : -1)
+	const handleClick = e => {
+		e.preventDefault()
+
+		if (e.target.getAttribute('name') === sortColumn) {
+			setSortReverse(!sortReverse)
+		} else {
+			setSortColumn(e.target.getAttribute('name'))
+			setSortReverse(false)
+		}
+	}
 
 	if (sortReverse) {
-		sortedGeeklistItems = sortedGeeklistItems.reverse()
+		geeklistItems.sort((a, b) => (a[sortColumn] > b[sortColumn]) ? -1 : 1)
+	} else {
+		geeklistItems.sort((a, b) => (a[sortColumn] > b[sortColumn]) ? 1 : -1)
 	}
 
 	return (h`
 		<table>
 			<thead>
 				<tr>
-					<td>Rank</td>
-					<td>Title</td>
-					<td>Rating</td>
-					<td>BGG Link</td>
+					<th name="rank" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Rank</th>
+					<th name="title" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Title</th>
+					<th name="rating" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Rating</th>
+					<th name="link">BGG Link</th>
 				</tr>
 			</thead>
 			<tbody>
