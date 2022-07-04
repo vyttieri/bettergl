@@ -1,10 +1,12 @@
 import h from 'helpers/createElement'
 
-const List = props => {
+
+
+const List = ({ geeklistItems }) => {
 	return (
 		h`
 			<table><tbody>
-		${props.geeklistItems.map(geeklistItem =>
+		${geeklistItems.map(geeklistItem =>
 			h`<tr>
 				<td>${geeklistItem.rank}</td>
 				<td>${geeklistItem.title}</td>
@@ -16,4 +18,6 @@ const List = props => {
 	)
 }
 
+
 export default List
+
