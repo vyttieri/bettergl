@@ -56,4 +56,15 @@ module BggConcerns
       end
     end
   end
+
+  def format_geeklist_items(geeklist_items)
+    geeklist_items.map do |geeklist_item|
+      {
+        rank: geeklist_item[:rank].to_i,
+        title: geeklist_item[:title],
+        rating: geeklist_item[:rating].to_f,
+        link: 'https://boardgamegeek.com' + geeklist_item[:link]
+      }
+    end
+  end
 end

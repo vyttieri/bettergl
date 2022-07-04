@@ -13,7 +13,7 @@ class ApplicationController < ActionController::Base
     rescue ArgumentError => e
       render json: { error: e.message }, status: :bad_request
     else
-      render json: geeklist_scraper.geeklist_items
+      render json: format_geeklist_items(geeklist_scraper.geeklist_items)
     end
   end
 end
