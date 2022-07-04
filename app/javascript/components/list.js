@@ -2,22 +2,7 @@ import { useState } from 'react'
 
 import h from 'helpers/createElement'
 
-const listStyles = {
-	arrow: {
-		border: 'solid black',
-		borderWidth: '0 3px 3px 0',
-		display: 'inline-block',
-		padding: '3px'
-	},
 
-	up: {
-		transform: 'rotate(-135deg)',
-	},
-
-	down: {
-		transform: 'rotate(135deg)',
-	}
-}
 
 const List = ({ geeklistItems }) => {
 	const [sortColumn, setSortColumn] = useState('rank')
@@ -26,10 +11,10 @@ const List = ({ geeklistItems }) => {
 	const handleClick = e => {
 		e.preventDefault()
 
-		if (e.target.getAttribute('name') === sortColumn) {
+		if (e.currentTarget.getAttribute('name') === sortColumn) {
 			setSortReverse(!sortReverse)
 		} else {
-			setSortColumn(e.target.getAttribute('name'))
+			setSortColumn(e.currentTarget.getAttribute('name'))
 			setSortReverse(false)
 		}
 	}
@@ -44,9 +29,15 @@ const List = ({ geeklistItems }) => {
 		<table>
 			<thead>
 				<tr>
-					<th name="rank" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Rank</th>
-					<th name="title" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Title</th>
-					<th name="rating" style=${{...listStyles.arrow, ...listStyles.up}} onClick=${handleClick}>Rating</th>
+					<th name="rank" onClick=${handleClick}>
+						<span class="arrow ${sortColumn == 'rank' ? (sortReverse ? 'descending' : 'ascending') : ''}"></span>Rank
+					</th>
+					<th name="title" onClick=${handleClick}>
+						<span class="arrow ${sortColumn == 'title' ? (sortReverse ? 'descending' : 'ascending') : ''}"></span>Title
+					</th>
+					<th name="rating" onClick=${handleClick}>
+						<span class="arrow ${sortColumn == 'rating' ? (sortReverse ? 'descending' : 'ascending') : ''}"></span>Rating
+					</th>
 				</tr>
 			</thead>
 			<tbody>
